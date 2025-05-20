@@ -35,7 +35,7 @@ function App() {
     <div>
       <TodoList todo1={todos} toggleTodo1={toggleTodo} />
       <input type="text" ref={todoNameRef} />
-      <button onClick={handleAddClick}>タスクを削除</button>
+      <button onClick={handleAddClick}>タスクを編集</button>
       <p>これを増やしました。</p>
       <button>aaa</button>
       <p>とてもなんか</p>
